@@ -1,3 +1,7 @@
+<!--git add'.'-->
+<!--git commit'.'-->
+<!--git push'.'-->
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -131,12 +135,29 @@
           </div>
 
           <div class="profile-info-container">
-            <p id="name-style">Hello, I Am Baymax.</p>
+            <p id="name-style">Anyeong, I am Baymax.</p>
             <p style="margin-top: -20px;">iam@efgh.com</p>
             <p style="margin-top: -10px;">I am your proffesional healthcare companion. "On a scale of 1 to 10, how would you rate your pain?"</p>
+            <button type="button" class="btn btn-primary" id="liveToastBtn">Show live toast</button>
           </div>
         </div>
       </section>
+
+      
+
+<div class="toast-container position-fixed bottom-0 end-0 p-3">
+  <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-header">
+      <img src="..." class="rounded me-2" alt="...">
+      <strong class="me-auto">Bootstrap</strong>
+      <small>11 mins ago</small>
+      <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+    <div class="toast-body">
+      Hello, world! This is a toast message.
+    </div>
+  </div>
+</div>
 
       <br>
 
@@ -209,7 +230,8 @@
       <!-- section 3 -->
       <!-- Contact Information, put your email, fake address, fake number -->
       <section id="contact">
-        <h1>Contact Me</h1>
+        <h1>Contact Me<span style="font-size: 12px; margin-left: 10px;" class="badge rounded-pill text-bg-primary">New</span></h1>
+        <p>
         <p>
           Email: <span> <a href="mailto:iam@burhan3759.com">iam@efgh.com</a></span>
         </p>
@@ -225,6 +247,27 @@
         <img style="margin-top: -4px" src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-whatsapp-mobile-software-icon-png-image_6315991.png" alt="whatsapp logo" width="20">
         Whatsapp Me
       </a>
+
+      <p style="margin-top: 10px;">
+        <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+          Social Media
+        </a>
+      </p>
+      <div class="collapse" id="collapseExample">
+        <div class="">
+          <ul>
+            <li>
+              <a href="https://facebook.com">facebook</a>  
+            </li>
+            <li>
+              <a href="https://twitter.com">twitter</a>  
+            </li>
+            <li>
+              <a href="https://instagram.com">instagram</a>  
+            </li>
+          </ul>
+        </div>
+      </div>
     </section>
 
       <br>
